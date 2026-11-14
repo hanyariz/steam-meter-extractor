@@ -1,7 +1,7 @@
 """
 ImageRecognitionTool — Steam Meter Extractor (Gemini Vision)
 =============================================================
-HOW TO USE:
+How to use:
   Run via the GUI:
       python3 steam_meter_gui.py
 
@@ -11,7 +11,7 @@ HOW TO USE:
   Requirements (one-time install):
       pip install opencv-python openpyxl numpy google-generativeai pillow pytesseract
 
-WHAT IT DOES:
+What it does:
   Reads each .jpg/.png image in the input folder, extracts the timestamp
   burned into the bottom of the image, and uses Google Gemini AI to read
   the numeric value displayed on the steam meter LCD. Results are saved
