@@ -1,0 +1,6 @@
+opencv-python
+numpy
+openpyxl
+pillow
+pytesseract
+google-genai
