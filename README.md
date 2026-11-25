@@ -36,21 +36,6 @@ This tool processes a whole folder of images automatically:
 
 Columns: `Date Time` | `Value (Mlbs)`
 
-## Try It (Sample Images Included)
-
-The `sample_images/` folder contains a small set of example meter photos so you can test the tool right away.
-
-1. Install the requirements (see below) and get a free Gemini API key.
-2. Run the GUI: `python3 steam_meter_gui.py`
-3. Select the `sample_images` folder, paste your key, and click **Run Extraction**.
-4. Compare your output with `docs/sample_output.xlsx` (the expected result). Small differences are normal, since AI reads can vary slightly.
-
-Or from the command line:
-
-```bash
-python3 ImageRecognitionTool.py --input sample_images --api-key "YOUR_KEY" --output sample_results.xlsx
-```
-
 ## Installation
 
 ```bash
